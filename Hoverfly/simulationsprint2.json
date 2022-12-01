@@ -1,0 +1,558 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/ws_ConsultaDatosBEL"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "10.1.1.101:9081"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "xml",
+							"value": "\u003csoapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:con=\"http://www.bi.com.gt/ConsultaDatosBEL/\"\u003e   \u003csoapenv:Header/\u003e   \u003csoapenv:Body\u003e      \u003ccon:DatosCliente\u003e         \u003cCIF\u003e33721441\u003c/CIF\u003e      \u003c/con:DatosCliente\u003e   \u003c/soapenv:Body\u003e\u003c/soapenv:Envelope\u003e"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\u003cNS1:Envelope xmlns:NS1=\"http://schemas.xmlsoap.org/soap/envelope/\"\u003e\u003cNS1:Body\u003e\u003cNS2:DatosClienteResponse xmlns:NS2=\"http://www.bi.com.gt/ConsultaDatosBEL/\"\u003e\u003cCodRespuesta\u003e0000\u003c/CodRespuesta\u003e\u003cMsgRespuesta\u003eRESPUESTA EXITOSA\u003c/MsgRespuesta\u003e\u003cCliente\u003e\u003cPrimerApellido\u003eSAQUIC\u003c/PrimerApellido\u003e\u003cSegundoApellido\u003eTIZOL\u003c/SegundoApellido\u003e\u003cApellidoCasada\u003e\u003c/ApellidoCasada\u003e\u003cNombres\u003eBRYAN ALBERT\u003c/Nombres\u003e\u003cNomenclatura\u003eSAN FELIPE XEJUYUP CAMINO OLIN\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cColonia\u003e\u003c/Colonia\u003e\u003cDepto\u003e08\u003c/Depto\u003e\u003cMupio\u003e004\u003c/Mupio\u003e\u003cFechaNacimiento\u003e28011997\u003c/FechaNacimiento\u003e\u003cLugarNacimiento\u003e001\u003c/LugarNacimiento\u003e\u003cNacionalidad\u003e001\u003c/Nacionalidad\u003e\u003cOtraNacionalidad\u003e000\u003c/OtraNacionalidad\u003e\u003cEstadoCivil\u003e1\u003c/EstadoCivil\u003e\u003cGenero\u003e1\u003c/Genero\u003e\u003cTipoID\u003e1\u003c/TipoID\u003e\u003cIDEmitidoEn\u003e000\u003c/IDEmitidoEn\u003e\u003cNumID\u003e3076165330804\u003c/NumID\u003e\u003cCelular\u003e40585668\u003c/Celular\u003e\u003cTelFijo\u003e00000000\u003c/TelFijo\u003e\u003cFechaVencimientoID\u003e00000000\u003c/FechaVencimientoID\u003e\u003cCondMigra\u003e00\u003c/CondMigra\u003e\u003cOtraCondMigra\u003e\u003c/OtraCondMigra\u003e\u003cEmail\u003eBRYANTIZOLG12@GMAIL.COM\u003c/Email\u003e\u003cProfesionOficio\u003e06\u003c/ProfesionOficio\u003e\u003cNit\u003e107754789\u003c/Nit\u003e\u003cRelaDep\u003e0\u003c/RelaDep\u003e\u003cNegPropio\u003e0\u003c/NegPropio\u003e\u003cOtrasFuentes\u003e0\u003c/OtrasFuentes\u003e\u003c/Cliente\u003e\u003cDependencias\u003e\u003cSector\u003e0\u003c/Sector\u003e\u003cNomEmpresa\u003eINSTITUTO DE SEGURIODAD SOCIAL IGSS\u003c/NomEmpresa\u003e\u003cPuesto\u003e\u003c/Puesto\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Dependencias\u003e\u003cDependencias\u003e\u003cSector\u003e0\u003c/Sector\u003e\u003cNomEmpresa\u003e\u003c/NomEmpresa\u003e\u003cPuesto\u003e\u003c/Puesto\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Dependencias\u003e\u003cDependencias\u003e\u003cSector\u003e0\u003c/Sector\u003e\u003cNomEmpresa\u003e\u003c/NomEmpresa\u003e\u003cPuesto\u003e\u003c/Puesto\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Dependencias\u003e\u003cDependencias\u003e\u003cSector\u003e0\u003c/Sector\u003e\u003cNomEmpresa\u003e\u003c/NomEmpresa\u003e\u003cPuesto\u003e\u003c/Puesto\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Dependencias\u003e\u003cDependencias\u003e\u003cSector\u003e0\u003c/Sector\u003e\u003cNomEmpresa\u003e\u003c/NomEmpresa\u003e\u003cPuesto\u003e\u003c/Puesto\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Dependencias\u003e\u003cDependencias\u003e\u003cSector\u003e0\u003c/Sector\u003e\u003cNomEmpresa\u003e\u003c/NomEmpresa\u003e\u003cPuesto\u003e\u003c/Puesto\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Dependencias\u003e\u003cNegocios\u003e\u003cNombre\u003e\u003c/Nombre\u003e\u003cNit\u003e\u003c/Nit\u003e\u003cFechaInsc\u003e00000000\u003c/FechaInsc\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cPatRegistro\u003e\u003c/PatRegistro\u003e\u003cPatFolio\u003e000000\u003c/PatFolio\u003e\u003cPatLibro\u003e000000\u003c/PatLibro\u003e\u003cPatExpediente\u003e\u003c/PatExpediente\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Negocios\u003e\u003cNegocios\u003e\u003cNombre\u003e\u003c/Nombre\u003e\u003cNit\u003e\u003c/Nit\u003e\u003cFechaInsc\u003e00000000\u003c/FechaInsc\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cPatRegistro\u003e\u003c/PatRegistro\u003e\u003cPatFolio\u003e000000\u003c/PatFolio\u003e\u003cPatLibro\u003e000000\u003c/PatLibro\u003e\u003cPatExpediente\u003e\u003c/PatExpediente\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Negocios\u003e\u003cNegocios\u003e\u003cNombre\u003e\u003c/Nombre\u003e\u003cNit\u003e\u003c/Nit\u003e\u003cFechaInsc\u003e00000000\u003c/FechaInsc\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cPatRegistro\u003e\u003c/PatRegistro\u003e\u003cPatFolio\u003e000000\u003c/PatFolio\u003e\u003cPatLibro\u003e000000\u003c/PatLibro\u003e\u003cPatExpediente\u003e\u003c/PatExpediente\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Negocios\u003e\u003cNegocios\u003e\u003cNombre\u003e\u003c/Nombre\u003e\u003cNit\u003e\u003c/Nit\u003e\u003cFechaInsc\u003e00000000\u003c/FechaInsc\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cPatRegistro\u003e\u003c/PatRegistro\u003e\u003cPatFolio\u003e000000\u003c/PatFolio\u003e\u003cPatLibro\u003e000000\u003c/PatLibro\u003e\u003cPatExpediente\u003e\u003c/PatExpediente\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Negocios\u003e\u003cNegocios\u003e\u003cNombre\u003e\u003c/Nombre\u003e\u003cNit\u003e\u003c/Nit\u003e\u003cFechaInsc\u003e00000000\u003c/FechaInsc\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cPatRegistro\u003e\u003c/PatRegistro\u003e\u003cPatFolio\u003e000000\u003c/PatFolio\u003e\u003cPatLibro\u003e000000\u003c/PatLibro\u003e\u003cPatExpediente\u003e\u003c/PatExpediente\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Negocios\u003e\u003cNegocios\u003e\u003cNombre\u003e\u003c/Nombre\u003e\u003cNit\u003e\u003c/Nit\u003e\u003cFechaInsc\u003e00000000\u003c/FechaInsc\u003e\u003cActEco\u003e000\u003c/ActEco\u003e\u003cActEcoEspec\u003e000\u003c/ActEcoEspec\u003e\u003cOtraActEco\u003e\u003c/OtraActEco\u003e\u003cPatRegistro\u003e\u003c/PatRegistro\u003e\u003cPatFolio\u003e000000\u003c/PatFolio\u003e\u003cPatLibro\u003e000000\u003c/PatLibro\u003e\u003cPatExpediente\u003e\u003c/PatExpediente\u003e\u003cNomenclatura\u003e\u003c/Nomenclatura\u003e\u003cZona\u003e00\u003c/Zona\u003e\u003cDepto\u003e00\u003c/Depto\u003e\u003cMupio\u003e000\u003c/Mupio\u003e\u003cPais\u003e000\u003c/Pais\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/Negocios\u003e\u003cOtrasFuentesDeIngresos\u003e\u003cOtrasFuentes\u003e00\u003c/OtrasFuentes\u003e\u003cEspecificas\u003e000\u003c/Especificas\u003e\u003cOtras\u003e\u003c/Otras\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/OtrasFuentesDeIngresos\u003e\u003cOtrasFuentesDeIngresos\u003e\u003cOtrasFuentes\u003e00\u003c/OtrasFuentes\u003e\u003cEspecificas\u003e000\u003c/Especificas\u003e\u003cOtras\u003e\u003c/Otras\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/OtrasFuentesDeIngresos\u003e\u003cOtrasFuentesDeIngresos\u003e\u003cOtrasFuentes\u003e00\u003c/OtrasFuentes\u003e\u003cEspecificas\u003e000\u003c/Especificas\u003e\u003cOtras\u003e\u003c/Otras\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/OtrasFuentesDeIngresos\u003e\u003cOtrasFuentesDeIngresos\u003e\u003cOtrasFuentes\u003e00\u003c/OtrasFuentes\u003e\u003cEspecificas\u003e000\u003c/Especificas\u003e\u003cOtras\u003e\u003c/Otras\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/OtrasFuentesDeIngresos\u003e\u003cOtrasFuentesDeIngresos\u003e\u003cOtrasFuentes\u003e00\u003c/OtrasFuentes\u003e\u003cEspecificas\u003e000\u003c/Especificas\u003e\u003cOtras\u003e\u003c/Otras\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/OtrasFuentesDeIngresos\u003e\u003cOtrasFuentesDeIngresos\u003e\u003cOtrasFuentes\u003e00\u003c/OtrasFuentes\u003e\u003cEspecificas\u003e000\u003c/Especificas\u003e\u003cOtras\u003e\u003c/Otras\u003e\u003cMoneda\u003e\u003c/Moneda\u003e\u003cIngresos\u003e0.00\u003c/Ingresos\u003e\u003c/OtrasFuentesDeIngresos\u003e\u003cTotalIngresos\u003e0.00\u003c/TotalIngresos\u003e\u003cEsPEP\u003e2\u003c/EsPEP\u003e\u003cParentescoPEP\u003e2\u003c/ParentescoPEP\u003e\u003cAsocPEP\u003e2\u003c/AsocPEP\u003e\u003cEsCPE\u003e2\u003c/EsCPE\u003e\u003c/NS2:DatosClienteResponse\u003e\u003c/NS1:Body\u003e\u003c/NS1:Envelope\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"6604"
+						],
+						"Content-Type": [
+							"text/xml;charset=utf-8"
+						],
+						"Date": [
+							"Wed, 09 Nov 2022 22:43:34 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/WS_Web_Mobile2/WS_CONSULTA_CUENTAS.asmx"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "adm.bienlinea.desa.bi.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "xml",
+							"value": "\u003csoapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ws=\"http://tempuri.org/WS_Web_Mobile/WS_CONSULTA_CUENTAS\"\u003e   \u003csoapenv:Header/\u003e   \u003csoapenv:Body\u003e      \u003cws:Consulta_Cuentas\u003e         \u003c!--Optional:--\u003e         \u003cws:XML_Mensaje\u003e         \u003c![CDATA[\u003cmensaje\u003e\u003cencabezado\u003e\u003ccodigo_usr_banca\u003e1781871\u003c/codigo_usr_banca\u003e\u003cusr_banca\u003egerardo10\u003c/usr_banca\u003e\u003cutiliza_token\u003etrue\u003c/utiliza_token\u003e\u003cusr_ws\u003eusrmobile\u003c/usr_ws\u003e\u003cpassword_ws\u003e52667433CF6631339D660433\u003c/password_ws\u003e\u003c/encabezado\u003e\u003cInformacion\u003e\u003cTipoMoneda\u003e3\u003c/TipoMoneda\u003e\u003cTipoCuenta\u003e1\u003c/TipoCuenta\u003e\u003cTipoOperacion\u003e1\u003c/TipoOperacion\u003e\u003cBanco\u003e3\u003c/Banco\u003e\u003c/Informacion\u003e\u003c/mensaje\u003e]]\u003e                  \u003c/ws:XML_Mensaje\u003e      \u003c/ws:Consulta_Cuentas\u003e   \u003c/soapenv:Body\u003e\u003c/soapenv:Envelope\u003e"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "\u003c?xml version=\"1.0\" encoding=\"utf-8\"?\u003e\u003csoap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"\u003e\u003csoap:Body\u003e\u003cConsulta_CuentasResponse xmlns=\"http://tempuri.org/WS_Web_Mobile/WS_CONSULTA_CUENTAS\"\u003e\u003cConsulta_CuentasResult\u003e\u0026lt;?xml version='1.0' encoding='utf-8'?\u0026gt;\u0026lt;mensaje\u0026gt;\u0026lt;encabezado\u0026gt;\u0026lt;codigo_retorno\u0026gt;0\u0026lt;/codigo_retorno\u0026gt;\u0026lt;mensaje_usuario\u0026gt;CUENTAS CONSULTADAS CON EXITO\u0026lt;/mensaje_usuario\u0026gt;\u0026lt;mensaje_tecnico\u0026gt;\u0026lt;/mensaje_tecnico\u0026gt;\u0026lt;utiliza_token\u0026gt;True\u0026lt;/utiliza_token\u0026gt;\u0026lt;/encabezado\u0026gt;\u0026lt;Informacion\u0026gt;\u0026lt;Cuentas\u0026gt;\u0026lt;Cuenta\u0026gt;0000388249\u0026lt;/Cuenta\u0026gt;\u0026lt;Estado\u0026gt;VIGENTE\u0026lt;/Estado\u0026gt;\u0026lt;TipoMoneda\u0026gt;Q.\u0026lt;/TipoMoneda\u0026gt;\u0026lt;TipoCuenta\u0026gt;1\u0026lt;/TipoCuenta\u0026gt;\u0026lt;CodigoMoneda\u0026gt;1\u0026lt;/CodigoMoneda\u0026gt;\u0026lt;NombreCuenta\u0026gt;\u0026lt;![CDATA[CONTROL DE CALIDAD PROYECTOS BMODERNA]]\u0026gt;\u0026lt;/NombreCuenta\u0026gt;\u0026lt;Banco\u0026gt;1\u0026lt;/Banco\u0026gt;\u0026lt;/Cuentas\u0026gt;\u0026lt;Cuentas\u0026gt;\u0026lt;Cuenta\u0026gt;0140740340\u0026lt;/Cuenta\u0026gt;\u0026lt;Estado\u0026gt;EMBARGADA\u0026lt;/Estado\u0026gt;\u0026lt;TipoMoneda\u0026gt;Q.\u0026lt;/TipoMoneda\u0026gt;\u0026lt;TipoCuenta\u0026gt;1\u0026lt;/TipoCuenta\u0026gt;\u0026lt;CodigoMoneda\u0026gt;1\u0026lt;/CodigoMoneda\u0026gt;\u0026lt;NombreCuenta\u0026gt;\u0026lt;![CDATA[BONILLA ABRIL JORGE GUSTAVO]]\u0026gt;\u0026lt;/NombreCuenta\u0026gt;\u0026lt;Banco\u0026gt;1\u0026lt;/Banco\u0026gt;\u0026lt;/Cuentas\u0026gt;\u0026lt;Cuentas\u0026gt;\u0026lt;Cuenta\u0026gt;0420011502\u0026lt;/Cuenta\u0026gt;\u0026lt;Estado\u0026gt;VIGENTE\u0026lt;/Estado\u0026gt;\u0026lt;TipoMoneda\u0026gt;Q.\u0026lt;/TipoMoneda\u0026gt;\u0026lt;TipoCuenta\u0026gt;1\u0026lt;/TipoCuenta\u0026gt;\u0026lt;CodigoMoneda\u0026gt;1\u0026lt;/CodigoMoneda\u0026gt;\u0026lt;NombreCuenta\u0026gt;\u0026lt;![CDATA[CARCAMO PALMA DE PENAGOS MELIDA EUGENIA]]\u0026gt;\u0026lt;/NombreCuenta\u0026gt;\u0026lt;Banco\u0026gt;1\u0026lt;/Banco\u0026gt;\u0026lt;/Cuentas\u0026gt;\u0026lt;Cuentas\u0026gt;\u0026lt;Cuenta\u0026gt;0000160887\u0026lt;/Cuenta\u0026gt;\u0026lt;Estado\u0026gt;VIGENTE\u0026lt;/Estado\u0026gt;\u0026lt;TipoMoneda\u0026gt;US$\u0026lt;/TipoMoneda\u0026gt;\u0026lt;TipoCuenta\u0026gt;1\u0026lt;/TipoCuenta\u0026gt;\u0026lt;CodigoMoneda\u0026gt;2\u0026lt;/CodigoMoneda\u0026gt;\u0026lt;NombreCuenta\u0026gt;\u0026lt;![CDATA[CORP INDUST CENTRO AMERICA]]\u0026gt;\u0026lt;/NombreCuenta\u0026gt;\u0026lt;Banco\u0026gt;1\u0026lt;/Banco\u0026gt;\u0026lt;/Cuentas\u0026gt;\u0026lt;Cuentas\u0026gt;\u0026lt;Cuenta\u0026gt;0040077166\u0026lt;/Cuenta\u0026gt;\u0026lt;Estado\u0026gt;PENDIENTE\u0026lt;/Estado\u0026gt;\u0026lt;TipoMoneda\u0026gt;US$\u0026lt;/TipoMoneda\u0026gt;\u0026lt;TipoCuenta\u0026gt;1\u0026lt;/TipoCuenta\u0026gt;\u0026lt;CodigoMoneda\u0026gt;2\u0026lt;/CodigoMoneda\u0026gt;\u0026lt;NombreCuenta\u0026gt;\u0026lt;![CDATA[SEMILLAS UNIVERSALES, S.A.]]\u0026gt;\u0026lt;/NombreCuenta\u0026gt;\u0026lt;Banco\u0026gt;1\u0026lt;/Banco\u0026gt;\u0026lt;/Cuentas\u0026gt;\u0026lt;Cuentas\u0026gt;\u0026lt;Cuenta\u0026gt;200025031\u0026lt;/Cuenta\u0026gt;\u0026lt;Estado\u0026gt;ACTIVA\u0026lt;/Estado\u0026gt;\u0026lt;TipoMoneda\u0026gt;US$\u0026lt;/TipoMoneda\u0026gt;\u0026lt;TipoCuenta\u0026gt;1\u0026lt;/TipoCuenta\u0026gt;\u0026lt;CodigoMoneda\u0026gt;2\u0026lt;/CodigoMoneda\u0026gt;\u0026lt;NombreCuenta\u0026gt;\u0026lt;![CDATA[BIRASA, S. A.]]\u0026gt;\u0026lt;/NombreCuenta\u0026gt;\u0026lt;Banco\u0026gt;2\u0026lt;/Banco\u0026gt;\u0026lt;/Cuentas\u0026gt;\u0026lt;Cuentas\u0026gt;\u0026lt;Cuenta\u0026gt;200043005\u0026lt;/Cuenta\u0026gt;\u0026lt;Estado\u0026gt;ACTIVA\u0026lt;/Estado\u0026gt;\u0026lt;TipoMoneda\u0026gt;US$\u0026lt;/TipoMoneda\u0026gt;\u0026lt;TipoCuenta\u0026gt;1\u0026lt;/TipoCuenta\u0026gt;\u0026lt;CodigoMoneda\u0026gt;2\u0026lt;/CodigoMoneda\u0026gt;\u0026lt;NombreCuenta\u0026gt;\u0026lt;![CDATA[JOSE FERNANDO VELEZ CRUZ]]\u0026gt;\u0026lt;/NombreCuenta\u0026gt;\u0026lt;Banco\u0026gt;2\u0026lt;/Banco\u0026gt;\u0026lt;/Cuentas\u0026gt;\u0026lt;/Informacion\u0026gt;\u0026lt;/mensaje\u0026gt;\u003c/Consulta_CuentasResult\u003e\u003c/Consulta_CuentasResponse\u003e\u003c/soap:Body\u003e\u003c/soap:Envelope\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Cache-Control": [
+							"private, max-age=0"
+						],
+						"Content-Type": [
+							"text/xml; charset=utf-8"
+						],
+						"Date": [
+							"Tue, 15 Nov 2022 16:17:08 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Microsoft-IIS/8.5"
+						],
+						"Vary": [
+							"Accept-Encoding"
+						],
+						"X-Aspnet-Version": [
+							"4.0.30319"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/WS_Web_Mobile2/WS_CONSULTA_CUENTAS.asmx"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "adm.bienlinea.desa.bi.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "xml",
+							"value": "\u003csoapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ws=\"http://tempuri.org/WS_Web_Mobile/WS_CONSULTA_CUENTAS\"\u003e   \u003csoapenv:Header/\u003e   \u003csoapenv:Body\u003e      \u003cws:Consulta_Cuentas\u003e         \u003c!--Optional:--\u003e         \u003cws:XML_Mensaje\u003e         \u003c![CDATA[\u003cmensaje\u003e\u003cencabezado\u003e\u003ccodigo_usr_banca\u003e1781871\u003c/codigo_usr_banca\u003e\u003cusr_banca\u003ecavila\u003c/usr_banca\u003e\u003cutiliza_token\u003etrue\u003c/utiliza_token\u003e\u003cusr_ws\u003eusrmobile\u003c/usr_ws\u003e\u003cpassword_ws\u003e52667433CF6631339D660433\u003c/password_ws\u003e\u003c/encabezado\u003e\u003cInformacion\u003e\u003cTipoMoneda\u003e3\u003c/TipoMoneda\u003e\u003cTipoCuenta\u003e1\u003c/TipoCuenta\u003e\u003cTipoOperacion\u003e1\u003c/TipoOperacion\u003e\u003cBanco\u003e3\u003c/Banco\u003e\u003c/Informacion\u003e\u003c/mensaje\u003e]]\u003e                  \u003c/ws:XML_Mensaje\u003e      \u003c/ws:Consulta_Cuentas\u003e   \u003c/soapenv:Body\u003e\u003c/soapenv:Envelope\u003e"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "\u003c?xml version=\"1.0\" encoding=\"utf-8\"?\u003e\u003csoap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"\u003e\u003csoap:Body\u003e\u003cConsulta_CuentasResponse xmlns=\"http://tempuri.org/WS_Web_Mobile/WS_CONSULTA_CUENTAS\"\u003e\u003cConsulta_CuentasResult\u003e\u0026lt;?xml version='1.0' encoding='utf-8'?\u0026gt;\u0026lt;mensaje\u0026gt;\u0026lt;encabezado\u0026gt;\u0026lt;codigo_retorno\u0026gt;2\u0026lt;/codigo_retorno\u0026gt;\u0026lt;mensaje_usuario\u0026gt;NO TIENE CUENTAS ASIGNADAS O CON PERMISO PARA REALIZAR ESTA ACCION\u0026lt;/mensaje_usuario\u0026gt;\u0026lt;mensaje_tecnico\u0026gt;\u0026lt;/mensaje_tecnico\u0026gt;\u0026lt;utiliza_token\u0026gt;True\u0026lt;/utiliza_token\u0026gt;\u0026lt;/encabezado\u0026gt;\u0026lt;/mensaje\u0026gt;\u003c/Consulta_CuentasResult\u003e\u003c/Consulta_CuentasResponse\u003e\u003c/soap:Body\u003e\u003c/soap:Envelope\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Cache-Control": [
+							"private, max-age=0"
+						],
+						"Content-Type": [
+							"text/xml; charset=utf-8"
+						],
+						"Date": [
+							"Tue, 15 Nov 2022 16:19:08 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Microsoft-IIS/8.5"
+						],
+						"Vary": [
+							"Accept-Encoding"
+						],
+						"X-Aspnet-Version": [
+							"4.0.30319"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/esb/services/ws/WSCuenta"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "10.1.1.101:7817"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "xml",
+							"value": "\u003cEnvelope\txmlns=\"http://www.w3.org/2003/05/soap-envelope\"\u003e\t\u003cHeader\u003e\t\t\u003cesb:esbHdr\t\t\txmlns=\"\"\t\t\txmlns:esb=\"http://www.cysce.com/esb/esbcore/v2/header\"\u003e\t\t\t\u003cService\u003eCuenta\u003c/Service\u003e\t\t\t\u003cOperation\u003eConsultaSaldos\u003c/Operation\u003e\t\t\t\u003cVersion\u003e1.2\u003c/Version\u003e\t\t\t\u003cTransaction_Id\u003e1662760806908\u003c/Transaction_Id\u003e\t\t\t\u003cConsumer\u003eAPPMOBILE\u003c/Consumer\u003e\t\t\u003c/esb:esbHdr\u003e\t\u003c/Header\u003e\t\u003cBody\u003e\t\t\u003cCuentaConsultaSaldos_Req\t\t\txmlns=\"http://www.bi.com.gt/esb/services/Cuenta\"\u003e\t\t\t\u003cInfoTrx\t\t\t\txmlns=\"\"\u003e\t\t\t\t\u003cIdTrx\u003e1662760806908\u003c/IdTrx\u003e\t\t\t\t\u003cCanal\u003e11\u003c/Canal\u003e\t\t\t\t\u003cPaisOperacion\u003e320\u003c/PaisOperacion\u003e\t\t\t\t\u003cBancoOperacion\u003e1\u003c/BancoOperacion\u003e\t\t\t\t\u003cPaisOrigen\u003e320\u003c/PaisOrigen\u003e\t\t\t\t\u003cBancoOrigen\u003e1\u003c/BancoOrigen\u003e\t\t\t\t\u003cPaisDestino\u003e320\u003c/PaisDestino\u003e\t\t\t\t\u003cBancoDestino\u003e1\u003c/BancoDestino\u003e\t\t\t\t\u003cFechaTrx\u003e20221115\u003c/FechaTrx\u003e\t\t\t\t\u003cHoraTrx\u003e102500\u003c/HoraTrx\u003e\t\t\t\t\u003cNumPag\u003e0\u003c/NumPag\u003e\t\t\t\t\u003cTotPags\u003e\u003c/TotPags\u003e\t\t\t\u003c/InfoTrx\u003e\t\t\t\u003cDatos\t\t\t\txmlns=\"\"\u003e\t\t\t\t\u003cProductos\u003e\t\t\t\t\t\u003cReg_Producto\u003e\t\t\t\t\t\t\u003cProducto\u003e1\u003c/Producto\u003e\t\t\t\t\t\t\u003cSubProducto\u003e\u003c/SubProducto\u003e\t\t\t\t\t\t\u003cNumProducto\u003e0420011502\u003c/NumProducto\u003e\t\t\t\t\t\t\u003cPaisProducto\u003e320\u003c/PaisProducto\u003e\t\t\t\t\t\t\u003cBancoProducto\u003e1\u003c/BancoProducto\u003e\t\t\t\t\t\t\u003cMoneda\u003eGTQ\u003c/Moneda\u003e\t\t\t\t\t\t\u003cDiaAportacion\u003e\u003c/DiaAportacion\u003e\t\t\t\t\t\u003c/Reg_Producto\u003e\t\t\t\t\u003c/Productos\u003e\t\t\t\u003c/Datos\u003e\t\t\u003c/CuentaConsultaSaldos_Req\u003e\t\u003c/Body\u003e\u003c/Envelope\u003e"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "\u003cNS1:Envelope xmlns:NS1=\"http://www.w3.org/2003/05/soap-envelope\"\u003e\u003cNS1:Header\u003e\u003cesb:esbHdr xmlns=\"\" xmlns:esb=\"http://www.cysce.com/esb/esbcore/v2/header\"\u003e\u003cService\u003eCuenta\u003c/Service\u003e\u003cOperation\u003eConsultaSaldos\u003c/Operation\u003e\u003cVersion\u003e1.2\u003c/Version\u003e\u003cTransaction_Id\u003e1662760806908\u003c/Transaction_Id\u003e\u003cConsumer\u003eAPPMOBILE\u003c/Consumer\u003e\u003cCode xmlns=\"\"\u003e0\u003c/Code\u003e\u003cReason xmlns=\"\"/\u003e\u003c/esb:esbHdr\u003e\u003c/NS1:Header\u003e\u003cNS1:Body\u003e\u003cNS2:CuentaConsultaSaldos_Resp xmlns:NS2=\"http://www.bi.com.gt/esb/services/Cuenta\"\u003e\u003cInfoTrx xmlns=\"\"\u003e\u003cIdTrx\u003e1662760806908\u003c/IdTrx\u003e\u003cCanal\u003e11\u003c/Canal\u003e\u003cPaisOperacion\u003e320\u003c/PaisOperacion\u003e\u003cBancoOperacion\u003e1\u003c/BancoOperacion\u003e\u003cPaisOrigen\u003e320\u003c/PaisOrigen\u003e\u003cBancoOrigen\u003e1\u003c/BancoOrigen\u003e\u003cPaisDestino\u003e320\u003c/PaisDestino\u003e\u003cBancoDestino\u003e1\u003c/BancoDestino\u003e\u003cFechaTrx\u003e20221115\u003c/FechaTrx\u003e\u003cHoraTrx\u003e102500\u003c/HoraTrx\u003e\u003cNumPag\u003e0\u003c/NumPag\u003e\u003cTotPags/\u003e\u003cCodRetorno\u003e00\u003c/CodRetorno\u003e\u003cDescripcionRetorno\u003e \u003c/DescripcionRetorno\u003e\u003c/InfoTrx\u003e\u003cDatos\u003e\u003cProductos\u003e\u003cReg_Producto\u003e\u003cProducto\u003e1\u003c/Producto\u003e\u003cSubProducto/\u003e\u003cNumProducto\u003e0420011502\u003c/NumProducto\u003e\u003cMoneda\u003eGTQ\u003c/Moneda\u003e\u003cNombreProducto\u003eCARCAMO PALMA DE PENAGOS MELIDA EUGENIA\u003c/NombreProducto\u003e\u003cSaldoDisp\u003e53944.62\u003c/SaldoDisp\u003e\u003cSaldoDispUSD/\u003e\u003cEstado\u003e00100101\u003c/Estado\u003e\u003cDiaAportacion/\u003e\u003cPagoMinimo\u003e0.00\u003c/PagoMinimo\u003e\u003cDiaCorte/\u003e\u003cPagoContado\u003e0.00\u003c/PagoContado\u003e\u003c/Reg_Producto\u003e\u003c/Productos\u003e\u003c/Datos\u003e\u003c/NS2:CuentaConsultaSaldos_Resp\u003e\u003c/NS1:Body\u003e\u003c/NS1:Envelope\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"1331"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=utf-8"
+						],
+						"Date": [
+							"Tue, 15 Nov 2022 16:24:00 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/WS_Web_Mobile2/WS_TRANSFERENCIAS.asmx"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "adm.bienlinea.desa.bi.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "xml",
+							"value": "\u003csoapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ws=\"http://tempuri.org/WS_Web_Mobile/WS_TRANSFERENCIAS\"\u003e   \u003csoapenv:Header/\u003e   \u003csoapenv:Body\u003e      \u003cws:Consultacuentaspropiasoterceros\u003e         \u003c!--Optional:--\u003e         \u003cws:xml\u003e         \u003c![CDATA[\u003cmensaje\u003e\u003cencabezado\u003e\u003ccodigo_usr_banca\u003e5\u003c/codigo_usr_banca\u003e\u003cusr_banca\u003egerardo10\u003c/usr_banca\u003e\u003cutiliza_token\u003etrue\u003c/utiliza_token\u003e\u003cusr_ws\u003eusrmobile\u003c/usr_ws\u003e\u003cpassword_ws\u003e52667433CF6631339D660433\u003c/password_ws\u003e\u003c/encabezado\u003e\u003cInformacion\u003e\u003cescuentatercero\u003e0\u003c/escuentatercero\u003e\u003cBanco\u003e3\u003c/Banco\u003e\u003c/Informacion\u003e\u003c/mensaje\u003e]]\u003e                  \u003c/ws:xml\u003e      \u003c/ws:Consultacuentaspropiasoterceros\u003e   \u003c/soapenv:Body\u003e\u003c/soapenv:Envelope\u003e"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "\u003c?xml version=\"1.0\" encoding=\"utf-8\"?\u003e\u003csoap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"\u003e\u003csoap:Body\u003e\u003cConsultacuentaspropiasotercerosResponse xmlns=\"http://tempuri.org/WS_Web_Mobile/WS_TRANSFERENCIAS\"\u003e\u003cConsultacuentaspropiasotercerosResult\u003e\u0026lt;?xml version='1.0' encoding='utf-8'?\u0026gt;\u0026lt;mensaje\u0026gt;\u0026lt;encabezado\u0026gt;\u0026lt;codigo_retorno\u0026gt;100\u0026lt;/codigo_retorno\u0026gt;\u0026lt;mensaje_usuario\u0026gt;Usuario o Contraseña de Web Service inválido\u0026lt;/mensaje_usuario\u0026gt;\u0026lt;mensaje_tecnico\u0026gt;Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.\u0026lt;/mensaje_tecnico\u0026gt;\u0026lt;utiliza_token\u0026gt;True\u0026lt;/utiliza_token\u0026gt;\u0026lt;/encabezado\u0026gt;\u0026lt;/mensaje\u0026gt;\u003c/ConsultacuentaspropiasotercerosResult\u003e\u003c/ConsultacuentaspropiasotercerosResponse\u003e\u003c/soap:Body\u003e\u003c/soap:Envelope\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Cache-Control": [
+							"private, max-age=0"
+						],
+						"Content-Type": [
+							"text/xml; charset=utf-8"
+						],
+						"Date": [
+							"Tue, 15 Nov 2022 16:37:35 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Microsoft-IIS/8.5"
+						],
+						"Vary": [
+							"Accept-Encoding"
+						],
+						"X-Aspnet-Version": [
+							"4.0.30319"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/WS_Web_Mobile2/WS_TRANSFERENCIAS.asmx"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "adm.bienlinea.desa.bi.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "xml",
+							"value": "\u003csoapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ws=\"http://tempuri.org/WS_Web_Mobile/WS_TRANSFERENCIAS\"\u003e   \u003csoapenv:Header/\u003e   \u003csoapenv:Body\u003e      \u003cws:Consultacuentaspropiasoterceros\u003e         \u003c!--Optional:--\u003e         \u003cws:xml\u003e         \u003c![CDATA[\u003cmensaje\u003e\u003cencabezado\u003e\u003ccodigo_usr_banca\u003e5\u003c/codigo_usr_banca\u003e\u003cusr_banca\u003eclima\u003c/usr_banca\u003e\u003cutiliza_token\u003etrue\u003c/utiliza_token\u003e\u003cusr_ws\u003eusrmobile\u003c/usr_ws\u003e\u003cpassword_ws\u003e52667433CF6631339D660433\u003c/password_ws\u003e\u003c/encabezado\u003e\u003cInformacion\u003e\u003cescuentatercero\u003e0\u003c/escuentatercero\u003e\u003cBanco\u003e3\u003c/Banco\u003e\u003c/Informacion\u003e\u003c/mensaje\u003e]]\u003e                  \u003c/ws:xml\u003e      \u003c/ws:Consultacuentaspropiasoterceros\u003e   \u003c/soapenv:Body\u003e\u003c/soapenv:Envelope\u003e"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "\u003c?xml version=\"1.0\" encoding=\"utf-8\"?\u003e\u003csoap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"\u003e\u003csoap:Body\u003e\u003cConsultacuentaspropiasotercerosResponse xmlns=\"http://tempuri.org/WS_Web_Mobile/WS_TRANSFERENCIAS\"\u003e\u003cConsultacuentaspropiasotercerosResult\u003e\u0026lt;?xml version='1.0' encoding='utf-8'?\u0026gt;\u0026lt;mensaje\u0026gt;\u0026lt;encabezado\u0026gt;\u0026lt;codigo_retorno\u0026gt;100\u0026lt;/codigo_retorno\u0026gt;\u0026lt;mensaje_usuario\u0026gt;Usuario o Contraseña de Web Service inválido\u0026lt;/mensaje_usuario\u0026gt;\u0026lt;mensaje_tecnico\u0026gt;Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.\u0026lt;/mensaje_tecnico\u0026gt;\u0026lt;utiliza_token\u0026gt;True\u0026lt;/utiliza_token\u0026gt;\u0026lt;/encabezado\u0026gt;\u0026lt;/mensaje\u0026gt;\u003c/ConsultacuentaspropiasotercerosResult\u003e\u003c/ConsultacuentaspropiasotercerosResponse\u003e\u003c/soap:Body\u003e\u003c/soap:Envelope\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Cache-Control": [
+							"private, max-age=0"
+						],
+						"Content-Type": [
+							"text/xml; charset=utf-8"
+						],
+						"Date": [
+							"Tue, 15 Nov 2022 16:41:36 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Microsoft-IIS/8.5"
+						],
+						"Vary": [
+							"Accept-Encoding"
+						],
+						"X-Aspnet-Version": [
+							"4.0.30319"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/WS_Web_Mobile2/WS_TRANSFERENCIAS.asmx"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "adm.bienlinea.desa.bi.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "xml",
+							"value": "\u003csoapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ws=\"http://tempuri.org/WS_Web_Mobile/WS_TRANSFERENCIAS\"\u003e   \u003csoapenv:Header/\u003e   \u003csoapenv:Body\u003e      \u003cws:Consultacuentaspropiasoterceros\u003e         \u003c!--Optional:--\u003e         \u003cws:xml\u003e         \u003c![CDATA[\u003cmensaje\u003e\u003cencabezado\u003e\u003ccodigo_usr_banca\u003e5\u003c/codigo_usr_banca\u003e\u003cusr_banca\u003egerardo10\u003c/usr_banca\u003e\u003cutiliza_token\u003etrue\u003c/utiliza_token\u003e\u003cusr_ws\u003eusrmobile\u003c/usr_ws\u003e\u003cpassword_ws\u003e52667433CF6631339D660433\u003c/password_ws\u003e\u003c/encabezado\u003e\u003cInformacion\u003e\u003cescuentatercero\u003e1\u003c/escuentatercero\u003e\u003cBanco\u003e3\u003c/Banco\u003e\u003c/Informacion\u003e\u003c/mensaje\u003e]]\u003e                  \u003c/ws:xml\u003e      \u003c/ws:Consultacuentaspropiasoterceros\u003e   \u003c/soapenv:Body\u003e\u003c/soapenv:Envelope\u003e"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "\u003c?xml version=\"1.0\" encoding=\"utf-8\"?\u003e\u003csoap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"\u003e\u003csoap:Body\u003e\u003cConsultacuentaspropiasotercerosResponse xmlns=\"http://tempuri.org/WS_Web_Mobile/WS_TRANSFERENCIAS\"\u003e\u003cConsultacuentaspropiasotercerosResult\u003e\u0026lt;?xml version='1.0' encoding='utf-8'?\u0026gt;\u0026lt;mensaje\u0026gt;\u0026lt;encabezado\u0026gt;\u0026lt;codigo_retorno\u0026gt;2\u0026lt;/codigo_retorno\u0026gt;\u0026lt;mensaje_usuario\u0026gt;NO CUENTA CON EL MODULO DE TRANSFERENCIAS A TERCEROS ASIGNADO\u0026lt;/mensaje_usuario\u0026gt;\u0026lt;mensaje_tecnico\u0026gt;\u0026lt;/mensaje_tecnico\u0026gt;\u0026lt;utiliza_token\u0026gt;True\u0026lt;/utiliza_token\u0026gt;\u0026lt;/encabezado\u0026gt;\u0026lt;/mensaje\u0026gt;\u003c/ConsultacuentaspropiasotercerosResult\u003e\u003c/ConsultacuentaspropiasotercerosResponse\u003e\u003c/soap:Body\u003e\u003c/soap:Envelope\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Cache-Control": [
+							"private, max-age=0"
+						],
+						"Content-Type": [
+							"text/xml; charset=utf-8"
+						],
+						"Date": [
+							"Tue, 15 Nov 2022 16:44:16 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Microsoft-IIS/8.5"
+						],
+						"Vary": [
+							"Accept-Encoding"
+						],
+						"X-Aspnet-Version": [
+							"4.0.30319"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/esb/services/ws/WSCuenta"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "10.1.1.101:7817"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "xml",
+							"value": "\u003cEnvelope\txmlns=\"http://www.w3.org/2003/05/soap-envelope\"\u003e\t\u003cHeader\u003e\t\t\u003cesb:esbHdr\t\t\txmlns=\"\"\t\t\txmlns:esb=\"http://www.cysce.com/esb/esbcore/v2/header\"\u003e\t\t\t\u003cService\u003eCuenta\u003c/Service\u003e\t\t\t\u003cOperation\u003eTransferencia\u003c/Operation\u003e\t\t\t\u003cVersion\u003e1.0\u003c/Version\u003e\t\t\t\u003cTransaction_Id\u003e5091666991333265\u003c/Transaction_Id\u003e\t\t\t\u003cConsumer\u003eAPPMOBILE\u003c/Consumer\u003e\t\t\t\u003cConsumer_Id\u003e\u003c/Consumer_Id\u003e\t\t\u003c/esb:esbHdr\u003e\t\u003c/Header\u003e\t\u003cBody\u003e\t\t\u003cCuentaTransferencia_Req\t\t\txmlns=\"http://www.bi.com.gt/esb/services/Cuenta\"\u003e\t\t\t\u003cInfoTrx\t\t\t\txmlns=\"\"\u003e\t\t\t\t\u003cIdTrx\u003e5091666991333265\u003c/IdTrx\u003e\t\t\t\t\u003cCanal\u003e11\u003c/Canal\u003e\t\t\t\t\u003cPaisOperacion\u003e320\u003c/PaisOperacion\u003e\t\t\t\t\u003cBancoOperacion\u003e1\u003c/BancoOperacion\u003e\t\t\t\t\u003cPaisOrigen\u003e320\u003c/PaisOrigen\u003e\t\t\t\t\u003cBancoOrigen\u003e1\u003c/BancoOrigen\u003e\t\t\t\t\u003cPaisDestino\u003e320\u003c/PaisDestino\u003e\t\t\t\t\u003cBancoDestino\u003e1\u003c/BancoDestino\u003e\t\t\t\t\u003cFechaTrx\u003e20221115\u003c/FechaTrx\u003e\t\t\t\t\u003cHoraTrx\u003e105000\u003c/HoraTrx\u003e\t\t\t\t\u003cNumPag\u003e0\u003c/NumPag\u003e\t\t\t\t\u003cTotPags\u003e0\u003c/TotPags\u003e\t\t\t\u003c/InfoTrx\u003e\t\t\t\u003cDatos\t\t\t\txmlns=\"\"\u003e\t\t\t\t\u003cTipoCtaDeb\u003e1\u003c/TipoCtaDeb\u003e\t\t\t\t\u003cSubtipoCtaDeb\u003e0\u003c/SubtipoCtaDeb\u003e\t\t\t\t\u003cNumCtaDeb\u003e0420011502\u003c/NumCtaDeb\u003e\t\t\t\t\u003cNombreCtaDeb\u003e\u003c/NombreCtaDeb\u003e\t\t\t\t\u003cMontoDeb\u003e5.00\u003c/MontoDeb\u003e\t\t\t\t\u003cMonedaCtaDeb\u003eGTQ\u003c/MonedaCtaDeb\u003e\t\t\t\t\u003cTipoCtaCred\u003e2\u003c/TipoCtaCred\u003e\t\t\t\t\u003cSubtipoCtaCred\u003e0\u003c/SubtipoCtaCred\u003e\t\t\t\t\u003cNumCtaCred\u003e0000160887\u003c/NumCtaCred\u003e\t\t\t\t\u003cNombreCtaCred\u003e\u003c/NombreCtaCred\u003e\t\t\t\t\u003cMontoCred\u003e5.00\u003c/MontoCred\u003e\t\t\t\t\u003cMonedaCtaCred\u003eGTQ\u003c/MonedaCtaCred\u003e\t\t\t\t\u003cComentario\u003e\u003c/Comentario\u003e\t\t\t\t\u003cTipoCambioBase\u003e\u003c/TipoCambioBase\u003e\t\t\t\t\u003cTipoCambioDest\u003e\u003c/TipoCambioDest\u003e\t\t\t\t\u003cMontoPivote\u003e5.00\u003c/MontoPivote\u003e\t\t\t\u003c/Datos\u003e\t\t\u003c/CuentaTransferencia_Req\u003e\t\u003c/Body\u003e\u003c/Envelope\u003e"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "\u003cNS1:Envelope xmlns:NS1=\"http://www.w3.org/2003/05/soap-envelope\"\u003e\u003cNS1:Header\u003e\u003cNS2:esbHdr xmlns:NS2=\"http://www.cysce.com/esb/esbcore/v2/header\"\u003e\u003cService\u003eCuenta\u003c/Service\u003e\u003cOperation\u003eTransferencia\u003c/Operation\u003e\u003cVersion\u003e1.0\u003c/Version\u003e\u003cService_Id\u003e414D51204D5153492E43432020202020636DE8BE254EF59D\u003c/Service_Id\u003e\u003cConsumer\u003eAPPMOBILE\u003c/Consumer\u003e\u003cConsumer_Id/\u003e\u003cTransaction_Id\u003e5091666991333265\u003c/Transaction_Id\u003e\u003cCode xmlns=\"\"\u003e0\u003c/Code\u003e\u003cReason xmlns=\"\"/\u003e\u003c/NS2:esbHdr\u003e\u003c/NS1:Header\u003e\u003cNS1:Body\u003e\u003cNS2:CuentaTransferencia_Resp xmlns:NS2=\"http://www.bi.com.gt/esb/services/Cuenta\"\u003e\u003cInfoTrx\u003e\u003cIdTrx\u003e5091666991333265\u003c/IdTrx\u003e\u003cCanal\u003e11\u003c/Canal\u003e\u003cPaisOperacion\u003e320\u003c/PaisOperacion\u003e\u003cBancoOperacion\u003e1\u003c/BancoOperacion\u003e\u003cPaisOrigen\u003e320\u003c/PaisOrigen\u003e\u003cBancoOrigen\u003e1\u003c/BancoOrigen\u003e\u003cPaisDestino\u003e320\u003c/PaisDestino\u003e\u003cBancoDestino\u003e1\u003c/BancoDestino\u003e\u003cFechaTrx\u003e20221115\u003c/FechaTrx\u003e\u003cHoraTrx\u003e105000\u003c/HoraTrx\u003e\u003cCodAutorizacion\u003e1104139936\u003c/CodAutorizacion\u003e\u003cNumPag\u003e0\u003c/NumPag\u003e\u003cTotPags\u003e001\u003c/TotPags\u003e\u003cCodRetorno\u003e000\u003c/CodRetorno\u003e\u003cDescripcionRetorno\u003e       TRANSFERENCIA PROCESADA EXITOSAMENTE\u003c/DescripcionRetorno\u003e\u003c/InfoTrx\u003e\u003cDatos\u003e\u003cTipoCtaDeb\u003e1\u003c/TipoCtaDeb\u003e\u003cNumCtaDeb\u003e0420011502\u003c/NumCtaDeb\u003e\u003cNombreCtaDeb\u003eCARCAMO PALMA MELIDA EUGENIA\u003c/NombreCtaDeb\u003e\u003cMontoDeb\u003e5.00\u003c/MontoDeb\u003e\u003cMonedaCtaDeb\u003eGTQ\u003c/MonedaCtaDeb\u003e\u003cNumAutDeb\u003e4139936\u003c/NumAutDeb\u003e\u003cNumRefDeb\u003e4139936\u003c/NumRefDeb\u003e\u003cTipoCtaCred\u003e2\u003c/TipoCtaCred\u003e\u003cNumCtaCred\u003e0000160887\u003c/NumCtaCred\u003e\u003cNombreCtaCred\u003eSANTOS AJANEL ADOLFO\u003c/NombreCtaCred\u003e\u003cMontoCred\u003e5.00\u003c/MontoCred\u003e\u003cMonedaCtaCred\u003eGTQ\u003c/MonedaCtaCred\u003e\u003cNumAutCred\u003e4139936\u003c/NumAutCred\u003e\u003cNumRefCred\u003e4139936\u003c/NumRefCred\u003e\u003cComentario/\u003e\u003cTipoCambioBase/\u003e\u003cTipoCambioDest/\u003e\u003cNumNegBase/\u003e\u003cNumNegDest/\u003e\u003cMontoPivote\u003e5.00\u003c/MontoPivote\u003e\u003c/Datos\u003e\u003c/NS2:CuentaTransferencia_Resp\u003e\u003c/NS1:Body\u003e\u003c/NS1:Envelope\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"1704"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=utf-8"
+						],
+						"Date": [
+							"Tue, 15 Nov 2022 16:48:39 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/esb/services/ws/WSCuenta"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "10.1.1.101:7817"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "http"
+						}
+					],
+					"body": [
+						{
+							"matcher": "xml",
+							"value": "\u003cEnvelope\txmlns=\"http://www.w3.org/2003/05/soap-envelope\"\u003e\t\u003cHeader\u003e\t\t\u003cesb:esbHdr\t\t\txmlns=\"\"\t\t\txmlns:esb=\"http://www.cysce.com/esb/esbcore/v2/header\"\u003e\t\t\t\u003cService\u003eCuenta\u003c/Service\u003e\t\t\t\u003cOperation\u003eConsultaSaldos\u003c/Operation\u003e\t\t\t\u003cVersion\u003e1.2\u003c/Version\u003e\t\t\t\u003cTransaction_Id\u003e1662760806908\u003c/Transaction_Id\u003e\t\t\t\u003cConsumer\u003eAPPMOBILE\u003c/Consumer\u003e\t\t\u003c/esb:esbHdr\u003e\t\u003c/Header\u003e\t\u003cBody\u003e\t\t\u003cCuentaConsultaSaldos_Req\t\t\txmlns=\"http://www.bi.com.gt/esb/services/Cuenta\"\u003e\t\t\t\u003cInfoTrx\t\t\t\txmlns=\"\"\u003e\t\t\t\t\u003cIdTrx\u003e1662760806908\u003c/IdTrx\u003e\t\t\t\t\u003cCanal\u003e11\u003c/Canal\u003e\t\t\t\t\u003cPaisOperacion\u003e320\u003c/PaisOperacion\u003e\t\t\t\t\u003cBancoOperacion\u003e1\u003c/BancoOperacion\u003e\t\t\t\t\u003cPaisOrigen\u003e320\u003c/PaisOrigen\u003e\t\t\t\t\u003cBancoOrigen\u003e1\u003c/BancoOrigen\u003e\t\t\t\t\u003cPaisDestino\u003e320\u003c/PaisDestino\u003e\t\t\t\t\u003cBancoDestino\u003e1\u003c/BancoDestino\u003e\t\t\t\t\u003cFechaTrx\u003e20221115\u003c/FechaTrx\u003e\t\t\t\t\u003cHoraTrx\u003e105400\u003c/HoraTrx\u003e\t\t\t\t\u003cNumPag\u003e0\u003c/NumPag\u003e\t\t\t\t\u003cTotPags\u003e\u003c/TotPags\u003e\t\t\t\u003c/InfoTrx\u003e\t\t\t\u003cDatos\t\t\t\txmlns=\"\"\u003e\t\t\t\t\u003cProductos\u003e\t\t\t\t\t\u003cReg_Producto\u003e\t\t\t\t\t\t\u003cProducto\u003e1\u003c/Producto\u003e\t\t\t\t\t\t\u003cSubProducto\u003e\u003c/SubProducto\u003e\t\t\t\t\t\t\u003cNumProducto\u003e0420011502\u003c/NumProducto\u003e\t\t\t\t\t\t\u003cPaisProducto\u003e320\u003c/PaisProducto\u003e\t\t\t\t\t\t\u003cBancoProducto\u003e1\u003c/BancoProducto\u003e\t\t\t\t\t\t\u003cMoneda\u003eGTQ\u003c/Moneda\u003e\t\t\t\t\t\t\u003cDiaAportacion\u003e\u003c/DiaAportacion\u003e\t\t\t\t\t\u003c/Reg_Producto\u003e\t\t\t\t\u003c/Productos\u003e\t\t\t\u003c/Datos\u003e\t\t\u003c/CuentaConsultaSaldos_Req\u003e\t\u003c/Body\u003e\u003c/Envelope\u003e"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "\u003cNS1:Envelope xmlns:NS1=\"http://www.w3.org/2003/05/soap-envelope\"\u003e\u003cNS1:Header\u003e\u003cesb:esbHdr xmlns=\"\" xmlns:esb=\"http://www.cysce.com/esb/esbcore/v2/header\"\u003e\u003cService\u003eCuenta\u003c/Service\u003e\u003cOperation\u003eConsultaSaldos\u003c/Operation\u003e\u003cVersion\u003e1.2\u003c/Version\u003e\u003cTransaction_Id\u003e1662760806908\u003c/Transaction_Id\u003e\u003cConsumer\u003eAPPMOBILE\u003c/Consumer\u003e\u003cCode xmlns=\"\"\u003e0\u003c/Code\u003e\u003cReason xmlns=\"\"/\u003e\u003c/esb:esbHdr\u003e\u003c/NS1:Header\u003e\u003cNS1:Body\u003e\u003cNS2:CuentaConsultaSaldos_Resp xmlns:NS2=\"http://www.bi.com.gt/esb/services/Cuenta\"\u003e\u003cInfoTrx xmlns=\"\"\u003e\u003cIdTrx\u003e1662760806908\u003c/IdTrx\u003e\u003cCanal\u003e11\u003c/Canal\u003e\u003cPaisOperacion\u003e320\u003c/PaisOperacion\u003e\u003cBancoOperacion\u003e1\u003c/BancoOperacion\u003e\u003cPaisOrigen\u003e320\u003c/PaisOrigen\u003e\u003cBancoOrigen\u003e1\u003c/BancoOrigen\u003e\u003cPaisDestino\u003e320\u003c/PaisDestino\u003e\u003cBancoDestino\u003e1\u003c/BancoDestino\u003e\u003cFechaTrx\u003e20221115\u003c/FechaTrx\u003e\u003cHoraTrx\u003e105400\u003c/HoraTrx\u003e\u003cNumPag\u003e0\u003c/NumPag\u003e\u003cTotPags/\u003e\u003cCodRetorno\u003e00\u003c/CodRetorno\u003e\u003cDescripcionRetorno\u003e \u003c/DescripcionRetorno\u003e\u003c/InfoTrx\u003e\u003cDatos\u003e\u003cProductos\u003e\u003cReg_Producto\u003e\u003cProducto\u003e1\u003c/Producto\u003e\u003cSubProducto/\u003e\u003cNumProducto\u003e0420011502\u003c/NumProducto\u003e\u003cMoneda\u003eGTQ\u003c/Moneda\u003e\u003cNombreProducto\u003eCARCAMO PALMA DE PENAGOS MELIDA EUGENIA\u003c/NombreProducto\u003e\u003cSaldoDisp\u003e53939.62\u003c/SaldoDisp\u003e\u003cSaldoDispUSD/\u003e\u003cEstado\u003e00100101\u003c/Estado\u003e\u003cDiaAportacion/\u003e\u003cPagoMinimo\u003e0.00\u003c/PagoMinimo\u003e\u003cDiaCorte/\u003e\u003cPagoContado\u003e0.00\u003c/PagoContado\u003e\u003c/Reg_Producto\u003e\u003c/Productos\u003e\u003c/Datos\u003e\u003c/NS2:CuentaConsultaSaldos_Resp\u003e\u003c/NS1:Body\u003e\u003c/NS1:Envelope\u003e",
+					"encodedBody": false,
+					"headers": {
+						"Content-Length": [
+							"1331"
+						],
+						"Content-Type": [
+							"application/soap+xml;charset=utf-8"
+						],
+						"Date": [
+							"Tue, 15 Nov 2022 16:51:57 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"Apache-Coyote/1.1"
+						]
+					},
+					"templated": false
+				}
+			}
+		],
+		"globalActions": {
+			"delays": [],
+			"delaysLogNormal": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v5.1",
+		"hoverflyVersion": "v1.4.0",
+		"timeExported": "2022-11-15T16:56:53Z"
+	}
+}

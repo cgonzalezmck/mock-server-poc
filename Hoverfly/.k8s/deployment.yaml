@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: test-mock
+  labels:
+    mock-services: "test"
+spec:
+  containers:
+  - name: test-mock
+    image: spectolabs/hoverfly:latest
+    ports:
+    - containerPort: 8500
+    volumeMounts:
+    - mountPath: /Transfer/
+      name: simulations-test
+    command: ["hoverfly", "-webserver", "-import", "/simulationspring2.json"]
+  volumes:
+  - name: simulations-test
+    configMap:
+      name: simulations-test
