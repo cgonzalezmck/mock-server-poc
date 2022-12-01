@@ -1,5 +1,10 @@
 var mockServerClient = require('mockserver-client').mockServerClient;
-mockServerClient("ac456d7a4c20f4c9d9561ad611cdf928-1150027820.us-east-1.elb.amazonaws.com", 80 ).mockAnyResponse({
+const host = "ac456d7a4c20f4c9d9561ad611cdf928-1150027820.us-east-1.elb.amazonaws.com";
+const port = 80;
+
+mockServerClient(host, port).reset();
+
+mockServerClient(host, port ).mockAnyResponse({
     "httpRequest": {
         "method": "POST",
         "path": "/wsTokenVirtual/wsTokenVirtual.asmx",
@@ -19,7 +24,7 @@ mockServerClient("ac456d7a4c20f4c9d9561ad611cdf928-1150027820.us-east-1.elb.amaz
     },
     "httpResponse": {
         "statusCode": 200,
-        "body": `<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><app_Login_banca_en_Linea_con_factorResponse xmlns="http://tempuri.org/"><app_Login_banca_en_Linea_con_factorResult>&lt;?xml version='1.0' encoding='utf-8'?&gt;&lt;mensaje&gt;&lt;encabezado&gt;&lt;codigo_retorno&gt;3&lt;/codigo_retorno&gt;&lt;mensaje_usuario&gt;TU INFORMACIÓN NO ES CORRECTA, POR FAVOR VERIFICA&lt;/mensaje_usuario&gt;&lt;mensaje_tecnico&gt;&lt;/mensaje_tecnico&gt;&lt;utiliza_token&gt;0&lt;/utiliza_token&gt;&lt;pns_usuariocreado&gt;False&lt;/pns_usuariocreado&gt;&lt;pns_dispositivos&gt;0&lt;/pns_dispositivos&gt;&lt;UsuarioHuella_Creado&gt;False&lt;/UsuarioHuella_Creado&gt;&lt;TokenBI_Afiliado&gt;False&lt;/TokenBI_Afiliado&gt;&lt;ReconocimientoFacial_Estado&gt;False&lt;/ReconocimientoFacial_Estado&gt;&lt;TokenBI_Obligatorio&gt;False&lt;/TokenBI_Obligatorio&gt;&lt;/encabezado&gt;&lt;/mensaje&gt;</app_Login_banca_en_Linea_con_factorResult></app_Login_banca_en_Linea_con_factorResponse></soap:Body></soap:Envelope>`,
+        "body": `<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><app_Login_banca_en_Linea_con_factorResponse xmlns="http://tempuri.org/"><app_Login_banca_en_Linea_con_factorResult><?xml version='1.0' encoding='utf-8'?><mensaje><encabezado><codigo_retorno>3</codigo_retorno><mensaje_usuario>TU INFORMACIÓN NO ES CORRECTA, POR FAVOR VERIFICA</mensaje_usuario><mensaje_tecnico></mensaje_tecnico><utiliza_token>0</utiliza_token><pns_usuariocreado>False</pns_usuariocreado><pns_dispositivos>0</pns_dispositivos><UsuarioHuella_Creado>False</UsuarioHuella_Creado><TokenBI_Afiliado>False</TokenBI_Afiliado><ReconocimientoFacial_Estado>False</ReconocimientoFacial_Estado><TokenBI_Obligatorio>False</TokenBI_Obligatorio></encabezado></mensaje></app_Login_banca_en_Linea_con_factorResult></app_Login_banca_en_Linea_con_factorResponse></soap:Body></soap:Envelope>`,
     }
 }).then(
     function () {
